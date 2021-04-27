@@ -20,7 +20,7 @@ The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services
 | Name | Github Username | 
 | ------ | ------ |
 | Aman Kushwaha | [https://github.com/amankushwaha577/]  |
-| Aman Saxena | [.  ] |
+| Aman Saxena | [https://github.com/amanS2206] |
 | Akarshit Srivastava | [. ] |
 
  
