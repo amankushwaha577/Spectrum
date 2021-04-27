@@ -2,6 +2,9 @@
 # ``` Spectrum ```
 The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services online.Our  Online shopping is a form of electronic shopping store where the buyer is directly online to the seller’s computer usually via the internet.
 
+![gif](https://user-images.githubusercontent.com/53748350/116215331-3654e180-a765-11eb-8e6f-6d897e319a55.gif)
+
+
 
    - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Friend's Spy is a social media site, and its primary purpose is to connect people and allow people to share their thoughts with a big audience. Our Web App allows users to discover stories regarding today's biggest news and events, follow people or companies that post content they enjoy consuming, or simply communicate with friends. Additionally, PR teams and marketers can use friend's spy to increase brand awareness and delight their audience.`
 
