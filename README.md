@@ -1,19 +1,18 @@
 
 # ``` SPECTRUM ```
 
-Introducing Spectrum our Ecommerce Website, your gateway to a world of convenience and endless possibilities. Designed with you in mind, our platform is your one-stop destination for all your shopping needs. With a user-friendly interface and a wide array of products at your fingertips, we've made shopping online a breeze. Discover new arrivals, explore best sellers, and find products tailored to your preferences. Whether you're searching for the latest fashion trends, cutting-edge gadgets, or everyday essentials, our website has it all. Enjoy secure and hassle-free checkout options, and rest assured that your data is protected. Say goodbye to long lines and crowded stores – welcome to the future of shopping, where convenience meets choice. Start exploring today and experience the ultimate online shopping adventure!
+Introducing Spectrum our Ecommerce Website, your gateway to a world of convenience and endless possibilities. Designed with you in mind, our platform is your one-stop destination for all your shopping needs. With a user-friendly interface and a wide array of products at your fingertips, Discover new arrivals, explore best sellers, and find products tailored to your preferences. Whether you're searching for the latest fashion trends, cutting-edge gadgets, or everyday essentials, our website has it all. Enjoy secure and hassle-free checkout options, and rest assured that your data is protected. Start exploring today and experience the ultimate online shopping adventure!
 
 ![gif](https://user-images.githubusercontent.com/53748350/116215331-3654e180-a765-11eb-8e6f-6d897e319a55.gif)
 
 
 
-   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `To develop an easy to use web based interface where students can search for products 
-(books), view a complete description of the product and order the product `
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Advanced Search and Filtering: Users can easily find products with advanced search and filtering options, enhancing the discoverability of products.`
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Our Web Application will often been used to spread breaking news quickly -- at times, it's even faster than traditional media outlets at spreading groundbreaking information quickly.`
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Secure Payment Processing: The integration of Braintree for payment processing ensures secure transactions, boosting user trust and confidence.`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `E-commerce brings a wide range of customers across the nation or globe to your business. Therefore, it is a wise choice to choose an e-commerce platform to cross the geographical barriers for your business.`
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `E-commerce is directly link to your business promotions, as it is the age of digital media. Making your business available online is crucial to your business development such as, highly convenience, wide exposure, global customer, easy to run, etc. and it will help in creating a strong & global brand image for your business.`
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `User and Admin Dashboards: The inclusion of separate user and admin dashboards simplifies management tasks and provides a personalized experience for both customer and administrator roles.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Efficient Cart Management: Users can add, remove, and adjust product quantities in their shopping carts, streamlining the shopping process.`
 
 
  
