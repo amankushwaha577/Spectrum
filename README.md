@@ -14,6 +14,10 @@ Introducing Spectrum our Ecommerce Website, your gateway to a world of convenien
   - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `User and Admin Dashboards: The inclusion of separate user and admin dashboards simplifies management tasks and provides a personalized experience for both customer and administrator roles.`
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Efficient Cart Management: Users can add, remove, and adjust product quantities in their shopping carts, streamlining the shopping process.`
 
+ -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Explore our extensive product listings organized by categories and subcategories, complete with detailed descriptions and user-friendly filters. View product details with specifications, pricing, and related product suggestions. Easily manage your shopping cart, adjust quantities, and proceed to a secure checkout.`
+
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `User and Admin Dashboards: The inclusion of separate user and admin dashboards simplifies management tasks and provides a personalized experience for both customer and administrator roles.`
+
 
  
 # Team SPECTRUM
