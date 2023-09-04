@@ -61,9 +61,9 @@ TECHNICAL SIDES OF FRIEND'S SPY
 5. Integrated Advance Searching/Filtering based on Price Range.
 6. Integrated Standard Products Search System with Categories option/dropdown.
 7. Build Shopping Cart
-8. Implement Authentication based on JWT
+8. Implemented Authentication based on JWT
 9. Build Admin and User Dashboard
-10.Implement Flexible Private and Admin Routing System
+10.Implemented Flexible Private and Admin Routing System
 11.Advance CRUD with Products and Categories
 12.Handled ndle File Upload
 14.Used LocalStorage (CRUD) to Minimize Requests to Backend
