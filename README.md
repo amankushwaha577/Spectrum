@@ -1,7 +1,7 @@
 
 # ``` SPECTRUM ```
 
-sPECTRUM Application powered by the MERN stack offers a transformative digital platform for businesses, granting them a global reach with 24/7 accessibility while minimizing operational costs. This app not only drives revenue growth but also leverages data insights to provide a personalized shopping experience, optimize inventory management, and reduce checkout abandonment. With competitive advantages, cost-effective marketing, scalability, and robust data security, it delivers flexibility, sustainability, and business continuity. In an increasingly digital world, this app becomes a vital asset, fostering customer loyalty through improved service and engagement, all while offering the agility to adapt to market dynamics and expand into new territories.
+SPECTRUM Application powered by the MERN stack offers a transformative digital platform for businesses, granting them a global reach with 24/7 accessibility while minimizing operational costs. This app not only drives revenue growth but also leverages data insights to provide a personalized shopping experience, optimize inventory management, and reduce checkout abandonment. With competitive advantages, cost-effective marketing, scalability, and robust data security, it delivers flexibility, sustainability, and business continuity. In an increasingly digital world, this app becomes a vital asset, fostering customer loyalty through improved service and engagement, all while offering the agility to adapt to market dynamics and expand into new territories.
 
 ![gif](https://user-images.githubusercontent.com/53748350/116215331-3654e180-a765-11eb-8e6f-6d897e319a55.gif)
 
