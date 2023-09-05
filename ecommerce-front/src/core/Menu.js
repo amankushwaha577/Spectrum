@@ -3,9 +3,11 @@ import { Link, withRouter } from "react-router-dom";
 import { signout, isAuthenticated } from "../auth";
 import { itemTotal } from "./cartHelpers";
 
+import logo from "../images/logo.png";
+
 const isActive = (history, path) => {
     if (history.location.pathname === path) {
-        return { color: "#ff9900" };
+        return { color: "red", background:"#80808088" };
     } else {
         return { color: "#ffffff" };
     }
@@ -19,13 +21,25 @@ const navStyle = {
     overflow: "hidden",
     zIndex: "200",
     background: "black",
-    float:"right"
+    float:"right",
+    fontSize:"20px"
 	// height: 100vh;
   };
 
+const logostyle ={
+    width:"180px",
+    height:"40px"
+}
+
 const Menu = ({ history }) => (
-    <div style={navStyle}>
-        <ul className="nav nav-tabs w-bold">
+    
+    <div style={navStyle} class="navbar navbar-expand-sm">
+         <ul className="nav " >
+                <div className="logo"  >
+                    <img src={logo} style={logostyle} alt="" />
+                </div>
+        </ul>
+        <ul className="nav nav-tabs w-bold navbar-nav ml-auto">
             <li className="nav-item">
                 <Link
                     className="nav-link"
