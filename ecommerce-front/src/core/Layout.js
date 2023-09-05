@@ -6,8 +6,18 @@ import logo from "../images/logo.png";
 
 const jumbotronStyle = {
     marginTop:"40px",
-    background:{logo}
+    color:"white",
+    background:{logo},
+    fontFamily:"Comic Sans MS",
+    color: `-webkit-linear-gradient(#eee, #333)`,
+    
   }
+
+
+  const jumbotronTitleStyle = {
+    fontFamily:"Lucida Handwriting"
+  }
+
 
 const Layout = ({
     title = "Title",
@@ -18,8 +28,8 @@ const Layout = ({
     <div>
         <Menu />
         <div className="jumbotron" style={jumbotronStyle}>
-            <h2>{title}</h2>
-            <p className="lead">{description}</p>
+            <h1>{title}</h1>
+            <p className="lead" style={jumbotronTitleStyle}>{description}</p>
         </div>
         <div className={className}>{children}</div>
     </div>

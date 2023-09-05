@@ -37,8 +37,8 @@ const Home = () => {
 
     return (
         <Layout
-            title="Spectrum: Ecommerce App"
-            description="CEO: Aman Kushwaha & Aman Saxena"
+            title="SPECTRUM"
+            description="Discover, Shop, and Enjoy - YourBrand's Ultimate Online Marketplace."
             className="container-fluid"
         >
             <Search />
