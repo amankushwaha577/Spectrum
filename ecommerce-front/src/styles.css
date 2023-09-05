@@ -1,6 +1,16 @@
 /**
  * border radius
  */
+ body {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
 
 .btn,
 .jumbotron,
@@ -8,15 +18,19 @@
     border-radius: 0px;
 }
 
+.jumbotron {
+    border-radius: 20px;
+}
+
 /* cart badge */
 
 .cart-badge,
 .cart-badge:hover {
-    border-radius: 50%;
-    padding: 2px;
+    border-radius: 90%;
+    padding: 5px;
     font-size: 12px;
     font-style: italic;
-    background: #000;
+    background: #e73c7e;
 }
 /**
  * single product page - product name
@@ -72,12 +86,18 @@
 
 .jumbotron {
     height: 180px;
-    color: #fff;
+    /* color: #fff;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite; */
+
+    background-image: url('images/dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 @-webkit-keyframes Gradient {
