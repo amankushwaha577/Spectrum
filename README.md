@@ -1,24 +1,20 @@
-
-# ``` SPECTRUM ```
-
-Introducing Spectrum our Ecommerce Website, your gateway to a world of convenience and endless possibilities. Designed with you in mind, our platform is your one-stop destination for all your shopping needs. With a user-friendly interface and a wide array of products at your fingertips, Discover new arrivals, explore best sellers, and find products tailored to your preferences. Whether you're searching for the latest fashion trends, cutting-edge gadgets, or everyday essentials, our website has it all. Enjoy secure and hassle-free checkout options, and rest assured that your data is protected. Start exploring today and experience the ultimate online shopping adventure!
+# Full Stack 2 Project
+# ``` Spectrum ```
+The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services online.Our  Online shopping is a form of electronic shopping store where the buyer is directly online to the seller’s computer usually via the internet.
 
 ![gif](https://user-images.githubusercontent.com/53748350/116215331-3654e180-a765-11eb-8e6f-6d897e319a55.gif)
 
 
 
-   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Advanced Search and Filtering: Users can easily find products with advanced search and filtering options, enhancing the discoverability of products.`
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `To develop an easy to use web based interface where students can search for products 
+(books), view a complete description of the product and order the product `
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Secure Payment Processing: The integration of Braintree for payment processing ensures secure transactions, boosting user trust and confidence.`
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `User and Admin Dashboards: The inclusion of separate user and admin dashboards simplifies management tasks and provides a personalized experience for both customer and administrator roles.`
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Application allows for effortless sign-up/ sign-In, profile management, and order history tracking.`
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Efficient Cart Management: Users can add, remove, and adjust product quantities in their shopping carts, streamlining the shopping process.`
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Our Web Application will often been used to spread breaking news quickly -- at times, it's even faster than traditional media outlets at spreading groundbreaking information quickly.`
 
- -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Explore our extensive product listings organized by categories and subcategories, complete with detailed descriptions and user-friendly filters. View product details with specifications, pricing, and related product suggestions. Easily manage your shopping cart, adjust quantities, and proceed to a secure checkout.`
-
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `E-commerce brings a wide range of customers across the nation or globe to your business. Therefore, it is a wise choice to choose an e-commerce platform to cross the geographical barriers for your business.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `E-commerce is directly link to your business promotions, as it is the age of digital media. Making your business available online is crucial to your business development such as, highly convenience, wide exposure, global customer, easy to run, etc. and it will help in creating a strong & global brand image for your business.`
 
 
-<br>
  
 # Team SPECTRUM
 | Name | Github Username | 
@@ -29,48 +25,40 @@ Introducing Spectrum our Ecommerce Website, your gateway to a world of convenien
 
  
 
-<br>
-
-# LANGUAGES, FRAMEWORKS, LIBRARY AND DATABASE
-
-- ![#BE0DF2](https://via.placeholder.com/15/1589F0/000000?text=+) `REACT.js`
-- ![#1512F8](https://via.placeholder.com/15/1589F0/000000?text=+) `NODE.js`
-- ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `NEXT.js`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
-- ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `JWT`
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
-- ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
-
-
-### DataBase and Payment Gateway
+# Software Tech Specs
+### BackEnd Tech
 ```diff
-DATABSE : Mongo DB
-PAYMENT : Braintree (A PayPal Company) for handling Payments
+- React JS
+- Node JS
+- Next JS
+- Express JS
+````
+### DataBase Tech
+```diff
+Mongo DB
 ```
 
-<br>
+ 
+### Front-End Tech
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `CSS3 and HTML5`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Bootstrap4`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
 
 # Online Reachability:
+Domain Will available very very soon..............
 
-TECHNICAL SIDES OF FRIEND'S SPY
+Install the dependencies and devDependencies and start the client side.
 ```sh
-1. Node JS API (Backend) & React JS (Frontend) based Ecommerce Application
-2. Integrated Payment Gateway using Credit Card and PayPal.
-3. Integrated Braintree (A PayPal Company) for Payment Processing.
-4. Integrated Advance Searching/Filtering based on Categories.
-5. Integrated Advance Searching/Filtering based on Price Range.
-6. Integrated Standard Products Search System with Categories option/dropdown.
-7. Build Shopping Cart
-8. Implemented Authentication based on JWT
-9. Build Admin and User Dashboard
-10.Implemented Flexible Private and Admin Routing System
-11.Advance CRUD with Products and Categories
-12.Handled ndle File Upload
-14.Used LocalStorage (CRUD) to Minimize Requests to Backend
-15.Used MongoDB to Store Sold Products Record into the Database for Further Processing
-16.User Profile and Update Ability
-17.Order Management System by Admin
+$ cd ecommerce
+$ npm install -y
+$ npm start
+```
 
+Install the dependencies and devDependencies and start the Server side.
+```sh
+$ cd ecommerce-front
+$ npm install -y
+$ npm start
 ```
 
 License

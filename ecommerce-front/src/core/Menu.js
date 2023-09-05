@@ -10,10 +10,22 @@ const isActive = (history, path) => {
         return { color: "#ffffff" };
     }
 };
+const navStyle = {
+    // backgroundColor: "black",
+    fontFamily: "Bahnschrift",
+    position: "fixed",
+    width: "100%",
+    top: "0px",
+    overflow: "hidden",
+    zIndex: "200",
+    background: "black",
+    float:"right"
+	// height: 100vh;
+  };
 
 const Menu = ({ history }) => (
-    <div>
-        <ul className="nav nav-tabs bg-primary">
+    <div style={navStyle}>
+        <ul className="nav nav-tabs w-bold">
             <li className="nav-item">
                 <Link
                     className="nav-link"
