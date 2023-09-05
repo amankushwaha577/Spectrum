@@ -27,7 +27,7 @@ const navStyle = {
   };
 
 const logostyle ={
-    width:"180px",
+    width:"190px",
     height:"40px"
 }
 
