@@ -17,7 +17,7 @@ The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services
 
  <br>
  
-# Team SPECTRUM
+# TEAM SPECTRUM
 | Name | Github Username | 
 | ------ | ------ |
 | Aman Kushwaha | [https://github.com/amankushwaha577/]  |
@@ -45,7 +45,7 @@ Mongo DB
 
 <br>
 
-# Online Reachability:
+# ONLINE REACHABILITY:
 
 
 TECHNICAL SIDES OF FRIEND'S SPY
