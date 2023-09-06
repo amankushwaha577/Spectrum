@@ -1,4 +1,4 @@
-# Full Stack 2 Project
+
 # ``` Spectrum ```
 The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services online.Our  Online shopping is a form of electronic shopping store where the buyer is directly online to the seller’s computer usually via the internet.
 
@@ -15,6 +15,7 @@ The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `E-commerce is directly link to your business promotions, as it is the age of digital media. Making your business available online is crucial to your business development such as, highly convenience, wide exposure, global customer, easy to run, etc. and it will help in creating a strong & global brand image for your business.`
 
 
+ <br>
  
 # Team SPECTRUM
 | Name | Github Username | 
@@ -25,41 +26,51 @@ The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services
 
  
 
-# Software Tech Specs
-### BackEnd Tech
-```diff
-- React JS
-- Node JS
-- Next JS
-- Express JS
-````
-### DataBase Tech
+ <br>
+
+# LANGUAGES, FRAMEWORKS, LIBRARY AND DATABASE
+
+- ![#BE0DF2](https://via.placeholder.com/15/1589F0/000000?text=+) `REACT.js`
+- ![#1512F8](https://via.placeholder.com/15/1589F0/000000?text=+) `NODE.js`
+- ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `NEXT.js`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
+- ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
+
+
+### DataBase 
 ```diff
 Mongo DB
 ```
 
- 
-### Front-End Tech
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `CSS3 and HTML5`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Bootstrap4`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
+<br>
 
 # Online Reachability:
-Domain Will available very very soon..............
 
-Install the dependencies and devDependencies and start the client side.
+
+TECHNICAL SIDES OF FRIEND'S SPY
 ```sh
-$ cd ecommerce
-$ npm install -y
-$ npm start
+1. A FullStack Social Network Application
+2. Rock Solid Authentication with Password Forgot/Password Reset using JWT
+3. Application LogIn using JWT
+4. POST CRUD Operations [ Users ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
+                                    Post like and unlike | User follow and unfollow |
+                                    User Posts Relationships
+   POST CRUD Operations [ Admin ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
+                                    Post like and unlike | Admin follow and unfollow |
+                                    Admin Posts Relationships
+                                                                  +
+                                    Update or Delete anyone-s Post | Update or Delete any User
+5. Custom reCAPTCHA
+6. Real Time Communication using Socket.io
+7. Secure DataBase Using MongoDB Database.
+8. Node.js API development for Backend Tool.
+9. SEO (Server Side Rendering) with NextJs
+
 ```
 
-Install the dependencies and devDependencies and start the Server side.
-```sh
-$ cd ecommerce-front
-$ npm install -y
-$ npm start
-```
+<br>
+
 
 License
 ----
