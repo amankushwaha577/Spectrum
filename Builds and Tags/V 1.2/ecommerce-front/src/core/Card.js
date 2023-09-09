@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Link, Redirect } from 'react-router-dom';
-import ShowImage from './ShowImage';
-import moment from 'moment';
-import { addItem, updateItem, removeItem } from './cartHelpers';
+import React, { useState } from "react";
+import { Link, Redirect } from "react-router-dom";
+import ShowImage from "./ShowImage";
+import moment from "moment";
+import { addItem, updateItem, removeItem } from "./cartHelpers";
 
 const Card = ({
   product,
@@ -10,18 +10,20 @@ const Card = ({
   showAddToCartButton = true,
   cartUpdate = false,
   showRemoveProductButton = false,
-  setRun = f => f,
-  run = undefined
+  setRun = (f) => f,
+  run = undefined,
   // changeCartSize
 }) => {
   const [redirect, setRedirect] = useState(false);
   const [count, setCount] = useState(product.count);
 
-  const showViewButton = showViewProductButton => {
+  const showViewButton = (showViewProductButton) => {
     return (
       showViewProductButton && (
         <Link to={`/product/${product._id}`} className="mr-2">
-          <button className="btn btn-outline-primary mt-2 mb-2 card-btn-1">View Product</button>
+          <button className="btn btn-outline-success mt-2 mb-2 card-btn-1">
+            View Product
+          </button>
         </Link>
       )
     );
@@ -31,23 +33,26 @@ const Card = ({
     addItem(product, setRedirect(true));
   };
 
-  const shouldRedirect = redirect => {
+  const shouldRedirect = (redirect) => {
     if (redirect) {
       return <Redirect to="/cart" />;
     }
   };
 
-  const showAddToCartBtn = showAddToCartButton => {
+  const showAddToCartBtn = (showAddToCartButton) => {
     return (
       showAddToCartButton && (
-        <button onClick={addToCart} className="btn btn-outline-warning mt-2 mb-2 card-btn-1  ">
+        <button
+          onClick={addToCart}
+          className="btn btn-outline-primary mt-2 mb-2 card-btn-1  "
+        >
           Add to cart
         </button>
       )
     );
   };
 
-  const showStock = quantity => {
+  const showStock = (quantity) => {
     return quantity > 0 ? (
       <span className="badge badge-primary badge-pill">In Stock </span>
     ) : (
@@ -55,7 +60,7 @@ const Card = ({
     );
   };
 
-  const handleChange = productId => event => {
+  const handleChange = (productId) => (event) => {
     setRun(!run); // run useEffect in parent Cart
     setCount(event.target.value < 1 ? 1 : event.target.value);
     if (event.target.value >= 1) {
@@ -63,7 +68,7 @@ const Card = ({
     }
   };
 
-  const showCartUpdateOptions = cartUpdate => {
+  const showCartUpdateOptions = (cartUpdate) => {
     return (
       cartUpdate && (
         <div>
@@ -71,13 +76,18 @@ const Card = ({
             <div className="input-group-prepend">
               <span className="input-group-text">Adjust Quantity</span>
             </div>
-            <input type="number" className="form-control" value={count} onChange={handleChange(product._id)} />
+            <input
+              type="number"
+              className="form-control"
+              value={count}
+              onChange={handleChange(product._id)}
+            />
           </div>
         </div>
       )
     );
   };
-  const showRemoveButton = showRemoveProductButton => {
+  const showRemoveButton = (showRemoveProductButton) => {
     return (
       showRemoveProductButton && (
         <button
@@ -116,33 +126,45 @@ const Card = ({
     // </div>
 
     <div className="card border-0 shadow-lg">
-  <div className="d-flex align-items-center" style={{ background: 'linear-gradient(to right, #4CAF50, #8BC34A, #E0E0E0, #B0B0B0)' }}>
-    <div className="p-4">
-      <ShowImage item={product} url="product" />
-    </div>
-    <div className="flex-grow-1">
-      <div className="card-header bg-transparent text-dark font-weight-bold">{product.name}</div>
-      <div className="card-body">
-        {shouldRedirect(redirect)}
-        <p className="card-text text-primary font-weight-bold">{product.description.substring(0, 100)}</p>
-        <p className="card-text text-success font-weight-bold">$ {product.price}</p>
-        <p className="text-muted font-weight-bold">Category: <span className="text-primary">{product.category && product.category.name}</span></p>
-        <p className="text-muted font-weight-bold">Added {moment(product.createdAt).fromNow()}</p>
-        {showStock(product.quantity)}
-        <br />
+      <div
+        className="d-flex align-items-center"
+        style={{ background: "linear-gradient(to right, #ff6b6b, #ffa07a)" }}
+      >
+        <div className="p-4" >
+          <ShowImage item={product} url="product" />
+        </div>
+        <div className="flex-grow-1">
+          <div className="card-header bg-transparent" style={{color:"black"}}>
+            {product.name}
+          </div>
+          <div className="card-body">
+            {shouldRedirect(redirect)}
+            <p className="card-text text-white">
+              {product.description.substring(0, 100)}
+            </p>
+            <p className="card-text text-success">$ {product.price}</p>
+            <p className="text-muted">
+              Category:{" "}
+              <span className="text-primary">
+                {product.category && product.category.name}
+              </span>
+            </p>
+            <p className="text-muted">
+              Added {moment(product.createdAt).fromNow()}
+            </p>
+            {showStock(product.quantity)}
+            <br />
 
-        <div className="btn-group" role="group">
-          {showViewButton(showViewProductButton)}
-          {showAddToCartBtn(showAddToCartButton)}
-          {showRemoveButton(showRemoveProductButton)}
-          {showCartUpdateOptions(cartUpdate)}
+            <div className="btn-group" role="group">
+              {showViewButton(showViewProductButton)}
+              {showAddToCartBtn(showAddToCartButton)}
+              {showRemoveButton(showRemoveProductButton)}
+              {showCartUpdateOptions(cartUpdate)}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-
   );
 };
 
