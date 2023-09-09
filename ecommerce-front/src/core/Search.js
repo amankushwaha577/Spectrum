@@ -80,9 +80,9 @@ const Search = () => {
 
     const searchForm = () => (
         <form onSubmit={searchSubmit}>
-            <span className="input-group-text">
+            <span className="input-group-text bg-warning border border-dark">
                 <div className="input-group input-group-lg">
-                    <div className="input-group-prepend">
+                    <div className="input-group-prepend ">
                         <select
                             className="btn mr-2"
                             onChange={handleChange("category")}
@@ -98,7 +98,7 @@ const Search = () => {
 
                     <input
                         type="search"
-                        className="form-control"
+                        className="form-control border border-dark"
                         onChange={handleChange("search")}
                         placeholder="Search by name"
                     />
