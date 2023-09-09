@@ -33,7 +33,7 @@ const logostyle ={
 
 const Menu = ({ history }) => (
     
-    <div style={navStyle} class="navbar navbar-expand-sm">
+    <div style={navStyle} className="navbar navbar-expand-sm">
          <ul className="nav " >
                 <div className="logo"  >
                     <img src={logo} style={logostyle} alt="" />
