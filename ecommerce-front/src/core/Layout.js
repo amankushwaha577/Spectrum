@@ -28,8 +28,8 @@ const Layout = ({
     <div>
         <Menu />
         <div className="jumbotron" style={jumbotronStyle}>
-            <h1>{title}</h1>
-            <p className="lead" style={jumbotronTitleStyle}>{description}</p>
+            <h1 className="text-light">{title}</h1>
+            <p className="lead text-warning" style={jumbotronTitleStyle}>{description}</p>
         </div>
         <div className={className}>{children}</div>
     </div>
