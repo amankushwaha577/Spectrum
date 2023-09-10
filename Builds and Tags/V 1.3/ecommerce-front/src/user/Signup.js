@@ -38,6 +38,7 @@ const Signup = () => {
     };
 
     const signUpForm = () => (
+        /*
         <form>
             <div className="form-group">
                 <label className="text-muted">Name</label>
@@ -57,6 +58,26 @@ const Signup = () => {
                 Submit
             </button>
         </form>
+        */
+       
+        <form style={{ background: 'linear-gradient(135deg, #FFD700, #FF4500, #FFD700)', padding: '20px', borderRadius: '10px' }}>
+    <div className="form-group">
+        <label htmlFor="name" className="text-white">Name</label>
+        <input id="name" onChange={handleChange('name')} type="text" className="form-control" value={name} />
+    </div>
+
+    <div className="form-group">
+        <label htmlFor="email" className="text-white">Email</label>
+        <input id="email" onChange={handleChange('email')} type="email" className="form-control" value={email} />
+    </div>
+
+    <div className="form-group">
+        <label htmlFor="password" className="text-white">Password</label>
+        <input id="password" onChange={handleChange('password')} type="password" className="form-control" value={password} />
+    </div>
+    <button onClick={clickSubmit} className="btn btn-primary">Submit</button>
+</form>
+
     );
 
     const showError = () => (
