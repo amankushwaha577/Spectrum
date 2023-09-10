@@ -39,22 +39,6 @@ As a passionate web developer, I embarked on a journey to create a robust Ecomme
 Mongo DB
 ```
 
- <br>
- 
-# TEAM SPECTRUM
-| Name | Github Username | 
-| ------ | ------ |
-| Aman Kushwaha | [https://github.com/amankushwaha577/]  |
-| Aman Saxena | [https://github.com/amanS2206] |
-| Akarshit Srivastava | [https://github.com/akarshit/2001] |
-
- 
-
-
-
-
-
-
 <br>
 
 # ONLINE REACHABILITY:
@@ -81,6 +65,16 @@ TECHNICAL SIDES OF SPECTRUM
 17.Implemented Order Management System by Admin.
 
 ```
+
+
+ <br>
+ 
+# TEAM SPECTRUM
+| Name | Github Username | 
+| ------ | ------ |
+| Aman Kushwaha | [https://github.com/amankushwaha577/]  |
+| Aman Saxena | [https://github.com/amanS2206] |
+| Akarshit Srivastava | [https://github.com/akarshit/2001] |
 
 <br>
 
