@@ -2,7 +2,7 @@
 # ``` Spectrum ```
 The primary goal of our e-commerce site 'SPECTRUM' is to sell goods and services online.Our  Online shopping is a form of electronic shopping store where the buyer is directly online to the seller’s computer usually via the internet.
 
-![gif](https://user-images.githubusercontent.com/53748350/116215331-3654e180-a765-11eb-8e6f-6d897e319a55.gif)
+![gif](https://user-images.githubusercontent.com/53748350/266853986-451ad343-3c42-45e1-87ca-4feec5ef81b2.gif)
 
 
 
