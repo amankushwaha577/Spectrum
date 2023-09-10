@@ -21,18 +21,6 @@ As a passionate web developer, I embarked on a journey to create a robust Ecomme
 
   -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Order Management: Administrators have access to a comprehensive order management system, where they can view and manage customer orders, track shipments, and handle returns and refunds.`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Performance Optimization: To ensure optimal performance, I deployed the app to Digital Ocean cloud servers. Additionally, I utilized Cloudflare's CDN for content delivery, enhancing the app's speed and reliability. Free SSL certificates were added to secure the app's data transmission.`
-
- <br>
- 
-# TEAM SPECTRUM
-| Name | Github Username | 
-| ------ | ------ |
-| Aman Kushwaha | [https://github.com/amankushwaha577/]  |
-| Aman Saxena | [https://github.com/amanS2206] |
-| Akarshit Srivastava | [https://github.com/akarshit/2001] |
-
- 
 
  <br>
 
@@ -45,11 +33,26 @@ As a passionate web developer, I embarked on a journey to create a robust Ecomme
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
 - ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
 
-
 ### DataBase 
 ```diff
 Mongo DB
 ```
+
+ <br>
+ 
+# TEAM SPECTRUM
+| Name | Github Username | 
+| ------ | ------ |
+| Aman Kushwaha | [https://github.com/amankushwaha577/]  |
+| Aman Saxena | [https://github.com/amanS2206] |
+| Akarshit Srivastava | [https://github.com/akarshit/2001] |
+
+ 
+
+
+
+
+
 
 <br>
 
