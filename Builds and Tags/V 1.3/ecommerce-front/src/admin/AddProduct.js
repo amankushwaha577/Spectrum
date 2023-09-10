@@ -85,32 +85,32 @@ const AddProduct = () => {
     };
 
     const newPostForm = () => (
-        <form className="mb-3" onSubmit={clickSubmit}>
-            <h4>Post Photo</h4>
+        <form className="mb-3 p-4 rounded" onSubmit={clickSubmit} style={{ background: 'linear-gradient(135deg, #0072ff, #4ed964, #0072ff)' }}>
+            <h4 className="text-white">Post Photo</h4>
             <div className="form-group">
                 <label className="btn btn-secondary">
                     <input onChange={handleChange('photo')} type="file" name="photo" accept="image/*" />
                 </label>
             </div>
-
+    
             <div className="form-group">
-                <label className="text-muted">Name</label>
-                <input onChange={handleChange('name')} type="text" className="form-control" value={name} />
+                <label htmlFor="name" className="text-white">Name</label>
+                <input id="name" onChange={handleChange('name')} type="text" className="form-control" value={name} />
             </div>
-
+    
             <div className="form-group">
-                <label className="text-muted">Description</label>
-                <textarea onChange={handleChange('description')} className="form-control" value={description} />
+                <label htmlFor="description" className="text-white">Description</label>
+                <textarea id="description" onChange={handleChange('description')} className="form-control" value={description} />
             </div>
-
+    
             <div className="form-group">
-                <label className="text-muted">Price</label>
-                <input onChange={handleChange('price')} type="number" className="form-control" value={price} />
+                <label htmlFor="price" className="text-white">Price</label>
+                <input id="price" onChange={handleChange('price')} type="number" className="form-control" value={price} />
             </div>
-
+    
             <div className="form-group">
-                <label className="text-muted">Category</label>
-                <select onChange={handleChange('category')} className="form-control">
+                <label htmlFor="category" className="text-white">Category</label>
+                <select id="category" onChange={handleChange('category')} className="form-control">
                     <option>Please select</option>
                     {categories &&
                         categories.map((c, i) => (
@@ -120,24 +120,26 @@ const AddProduct = () => {
                         ))}
                 </select>
             </div>
-
+    
             <div className="form-group">
-                <label className="text-muted">Shipping</label>
-                <select onChange={handleChange('shipping')} className="form-control">
+                <label htmlFor="shipping" className="text-white">Shipping</label>
+                <select id="shipping" onChange={handleChange('shipping')} className="form-control">
                     <option>Please select</option>
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
-
+    
             <div className="form-group">
-                <label className="text-muted">Quantity</label>
-                <input onChange={handleChange('quantity')} type="number" className="form-control" value={quantity} />
+                <label htmlFor="quantity" className="text-white">Quantity</label>
+                <input id="quantity" onChange={handleChange('quantity')} type="number" className="form-control" value={quantity} />
             </div>
-
-            <button className="btn btn-outline-primary">Create Product</button>
+    
+            <button className="btn btn-primary">Create Product</button>
         </form>
     );
+    
+    
 
     const showError = () => (
         <div className="alert alert-danger" style={{ display: error ? '' : 'none' }}>
