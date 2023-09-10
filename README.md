@@ -32,6 +32,7 @@ As a passionate web developer, I embarked on a journey to create a robust Ecomme
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
 - ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Braintree Gateway`
 
 ### DataBase 
 ```diff
