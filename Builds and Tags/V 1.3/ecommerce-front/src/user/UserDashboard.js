@@ -29,36 +29,54 @@ const Dashboard = () => {
 
     const userLinks = () => {
         return (
+            // <div className="card">
+            //     <h4 className="card-header">User Links</h4>
+            //     <ul className="list-group">
+            //         <li className="list-group-item">
+            //             <Link className="nav-link" to="/cart">
+            //                 My Cart
+            //             </Link>
+            //         </li>
+            //         <li className="list-group-item">
+            //             <Link className="nav-link" to={`/profile/${_id}`}>
+            //                 Update Profile
+            //             </Link>
+            //         </li>
+            //     </ul>
+            // </div>
+
             <div className="card">
-                <h4 className="card-header">User Links</h4>
-                <ul className="list-group">
-                    <li className="list-group-item">
-                        <Link className="nav-link" to="/cart">
-                            My Cart
-                        </Link>
-                    </li>
-                    <li className="list-group-item">
-                        <Link className="nav-link" to={`/profile/${_id}`}>
-                            Update Profile
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+  <h4 className="card-header bg-dark text-white text-center">User Links</h4>
+  <ul className="list-group">
+    <li className="list-group-item" style={{ background: 'linear-gradient(to bottom, #4e54c8, #8f94fb)' }}>
+      <Link className="nav-link text-white" to="/cart">
+        My Cart
+      </Link>
+    </li>
+    <li className="list-group-item" style={{ background: 'linear-gradient(to bottom, #f2994a, #f2c94c)' }}>
+      <Link className="nav-link text-white" to={`/profile/${_id}`}>
+        Update Profile
+      </Link>
+    </li>
+  </ul>
+</div>
+
         );
     };
 
     const userInfo = () => {
         return (
             <div className="card mb-5">
-                <h3 className="card-header">User Information</h3>
-                <ul className="list-group">
-                    <li className="list-group-item">{name}</li>
-                    <li className="list-group-item">{email}</li>
-                    <li className="list-group-item">
-                        {role === 1 ? "Admin" : "Registered User"}
-                    </li>
-                </ul>
-            </div>
+  <h3 className="card-header bg-primary text-white">User Information</h3>
+  <ul className="list-group">
+    <li className="list-group-item">Name: {name}</li>
+    <li className="list-group-item">Email: {email}</li>
+    <li className="list-group-item">
+      Role: {role === 1 ? "Admin" : "Registered User"}
+    </li>
+  </ul>
+</div>
+
         );
     };
 
