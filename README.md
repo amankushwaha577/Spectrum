@@ -61,7 +61,7 @@ Mongo DB
 
 TECHNICAL SIDES OF SPECTRUM
 ```sh
-1. A FullStack Social Network Application.
+1. A FullStack [ MERN ] E-Shopping Application.
 2. Implemented Payment Gateway using Credit Card and PayPal.
 3. Integrated Braintree (A PayPal Company) for Payment Processing.
 4. Implemented Advance Searching/Filtering based on Categories.
