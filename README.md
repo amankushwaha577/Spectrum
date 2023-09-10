@@ -59,24 +59,25 @@ Mongo DB
 # ONLINE REACHABILITY:
 
 
-TECHNICAL SIDES OF FRIEND'S SPY
+TECHNICAL SIDES OF SPECTRUM
 ```sh
-1. A FullStack Social Network Application
-2. Rock Solid Authentication with Password Forgot/Password Reset using JWT
-3. Application LogIn using JWT
-4. POST CRUD Operations [ Users ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
-                                    Post like and unlike | User follow and unfollow |
-                                    User Posts Relationships
-   POST CRUD Operations [ Admin ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
-                                    Post like and unlike | Admin follow and unfollow |
-                                    Admin Posts Relationships
-                                                                  +
-                                    Update or Delete anyone-s Post | Update or Delete any User
-5. Custom reCAPTCHA
-6. Real Time Communication using Socket.io
-7. Secure DataBase Using MongoDB Database.
-8. Node.js API development for Backend Tool.
-9. SEO (Server Side Rendering) with NextJs
+1. A FullStack Social Network Application.
+2. Implemented Payment Gateway using Credit Card and PayPal.
+3. Integrated Braintree (A PayPal Company) for Payment Processing.
+4. Implemented Advance Searching/Filtering based on Categories.
+5. Implemented Advance Searching/Filtering based on Price Range.
+6. Implemented Standard Products Search System with Categories option/dropdown.
+7. Build Shopping Cart.
+8. Implement Authentication based on JWT.
+9. Build Scalable React App with Proper Layouts and Routes.
+10.Build Admin and User Dashboard.
+11.Implemented Flexible Private and Admin Routing System.
+12.Advance CRUD with Products and Categories.
+13.Handled File Upload.
+14.Used LocalStorage (CRUD) to Minimize Requests to Backend.
+15.Stored Sold Products Record into the Database for Further Processing.
+16.User Profile and Update Ability.
+17.Implemented Order Management System by Admin.
 
 ```
 
