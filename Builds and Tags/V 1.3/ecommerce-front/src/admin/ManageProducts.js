@@ -39,7 +39,8 @@ const ManageProducts = () => {
             description="Perform CRUD on products"
             className="container-fluid"
         >
-            <div className="row">
+            
+            {/* <div className="row">
                 <div className="col-12">
                     <h2 className="text-center">
                         Total {products.length} products
@@ -68,7 +69,40 @@ const ManageProducts = () => {
                     </ul>
                     <br />
                 </div>
-            </div>
+            </div> */}
+
+<div className="row">
+    <div className="col-12">
+        <h2 className="text-center text-white">
+            Total {products.length} products
+        </h2>
+        <hr className="bg-white" />
+        <ul className="list-group">
+            {products.map((p, i) => (
+                <li
+                    key={i}
+                    className="list-group-item d-flex justify-content-between align-items-center"
+                    style={{ background: 'linear-gradient(135deg, #3498db, #8e44ad)' }}
+                >
+                    <strong className="text-white">{p.name}</strong>
+                    <div className="d-flex">
+                        <Link to={`/admin/product/update/${p._id}`} className="btn btn-warning mr-2">
+                            Update
+                        </Link>
+                        <span
+                            onClick={() => destroy(p._id)}
+                            className="btn btn-danger cursor-pointer"
+                        >
+                            Delete
+                        </span>
+                    </div>
+                </li>
+            ))}
+        </ul>
+        <br />
+    </div>
+</div>
+
         </Layout>
     );
 };
