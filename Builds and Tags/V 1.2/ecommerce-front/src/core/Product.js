@@ -38,7 +38,7 @@ const Product = props => {
             className="container-fluid"
         >
             <div className="row">
-                <div className="col-8">
+                <div className="col-8 mt-5">
                     {product && product.description && <Card product={product} showViewProductButton={false} />}
                 </div>
 
