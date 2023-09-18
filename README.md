@@ -52,10 +52,10 @@ TECHNICAL SIDES OF SPECTRUM
 4. Implemented Advance Searching/Filtering based on Categories.
 5. Implemented Advance Searching/Filtering based on Price Range.
 6. Implemented Standard Products Search System with Categories option/dropdown.
-7. Build Shopping Cart.
-8. Implement Authentication based on JWT.
-9. Build Scalable React App with Proper Layouts and Routes.
-10.Build Admin and User Dashboard.
+7. Implemented Shopping Cart.
+8. Implemented Authentication based on JWT.
+9. Implemented Scalable React App with Proper Layouts and Routes.
+10.Implemented Admin and User Dashboard.
 11.Implemented Flexible Private and Admin Routing System.
 12.Advance CRUD with Products and Categories.
 13.Handled File Upload.
