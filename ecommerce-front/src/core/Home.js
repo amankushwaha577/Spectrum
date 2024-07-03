@@ -3,6 +3,7 @@ import Layout from './Layout';
 import { getProducts } from './apiCore';
 import Card from './Card';
 import Search from './Search';
+import './Home.css'; // Import the CSS file
 
 const Home = () => {
     const [productsBySell, setProductsBySell] = useState([]);
@@ -39,22 +40,22 @@ const Home = () => {
         <Layout
             title="SPECTRUM"
             description="Discover, Shop, and Enjoy - YourBrand's Ultimate Online Marketplace."
-            className="container-fluid"
+            className="home-container"
         >
             <Search />
-            <h2 className="mb-4" style={{fontFamily: 'Impact'}}>NEW ARRIVALS</h2>
-            <div className="row">
+            <h2 className="section-title" style={{fontFamily: 'Impact'}}>NEW ARRIVALS</h2>
+            <div className="products-grid">
                 {productsByArrival.map((product, i) => (
-                    <div key={i} className="col-4 mb-3">
+                    <div key={i} className="product-card">
                         <Card product={product} />
                     </div>
                 ))}
             </div>
 
-            <h2 className="mb-4">Best Sellers</h2>
-            <div className="row">
+            <h2 className="section-title">Best Sellers</h2>
+            <div className="products-grid">
                 {productsBySell.map((product, i) => (
-                    <div key={i} className="col-4 mb-3">
+                    <div key={i} className="product-card">
                         <Card product={product} />
                     </div>
                 ))}
