@@ -1,71 +1,138 @@
-/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
 
 .home-container {
-    padding: 20px;
-    background: linear-gradient(to right, #ffecd2, #fcb69f);
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.section-header {
+    margin-bottom: 50px;
 }
 
 .section-title {
-    text-align: center;
-    font-size: 2em;
+    font-size: 2.8em;
     color: #ff6f61;
     margin-bottom: 20px;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #ff6f61, #ffb661);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    animation: bounceIn 1s ease-in-out;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background: #ff6f61;
+    margin: 10px auto 0 auto;
+    animation: expandLine 1.2s ease-out;
+}
+
+.decorative-line {
+    width: 70%;
+    height: 3px;
+    background: #ff6f61;
+    margin: 0 auto;
+    animation: slideIn 1.2s ease-out;
+    z-index: 0;
 }
 
 .products-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 15px;
+    gap: 25px;
+    padding: 0 15px;
 }
 
 .product-card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
     overflow: hidden;
-    flex: 0 1 calc(33% - 30px);
-    margin: 15px;
+    flex: 0 1 calc(30% - 20px);
+    margin-bottom: 20px; /* Adjust margin for spacing between cards */
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content vertically */
+    align-items: center;
+    padding: 15px;
+    animation: fadeInUp 0.7s ease-in-out;
 }
 
 .product-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .product-card img {
-    max-width: 100%;
-    border-bottom: 2px solid #ff6f61;
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #ff6f61;
+    transition: all 0.4s ease-in-out;
+    max-height: 200px; /* Ensure a maximum height */
+    object-fit: cover; /* Ensure the image is contained within the defined height */
+}
+
+.product-card img:hover {
+    transform: scale(1.1);
+}
+
+.product-card-content {
+    flex: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content vertically */
 }
 
 .product-card h4 {
     text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
+    padding: 10px 0;
+    font-size: 1.4em;
     color: #333;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .product-card p {
     text-align: center;
-    padding: 0 15px;
-    color: #777;
-    margin-bottom: 10px;
+    padding: 0 20px;
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-card-button {
+    margin-top: auto; /* Push button to the bottom */
+}
+
+@media (max-width: 1024px) {
+    .product-card {
+        flex: 0 1 calc(45% - 20px);
+    }
 }
 
 @media (max-width: 768px) {
     .product-card {
-        flex: 0 1 calc(50% - 30px);
-    }
-}
-
-@media (max-width: 576px) {
-    .product-card {
-        flex: 0 1 calc(100% - 30px);
+        flex: 0 1 calc(100% - 20px);
     }
 }
