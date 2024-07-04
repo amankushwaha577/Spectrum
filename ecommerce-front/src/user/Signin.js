@@ -5,7 +5,7 @@ import { signin, authenticate, isAuthenticated } from "../auth";
 
 const Signin = () => {
     const [values, setValues] = useState({
-        email: "amankushwaha@gmail.com",
+        email: "amankushwaha57@gmail.com",
         password: "aman123",
         error: "",
         loading: false,
@@ -37,6 +37,7 @@ const Signin = () => {
     };
 
     const signUpForm = () => (
+        /*
         <form>
             <div className="form-group">
                 <label className="text-muted">Email</label>
@@ -61,6 +62,33 @@ const Signin = () => {
                 Submit
             </button>
         </form>
+        */
+
+        <form style={{ background: 'linear-gradient(135deg, #ff6b6b, #0072ff)', padding: '20px', borderRadius: '10px', color: 'white' }}>
+    <div className="form-group">
+        <label htmlFor="email" className="text-white">Email</label>
+        <input
+            id="email"
+            onChange={handleChange("email")}
+            type="email"
+            className="form-control"
+            value={email}
+        />
+    </div>
+
+    <div className="form-group">
+        <label htmlFor="password" className="text-white">Password</label>
+        <input
+            id="password"
+            onChange={handleChange("password")}
+            type="password"
+            className="form-control"
+            value={password}
+        />
+    </div>
+    <button onClick={clickSubmit} className="btn btn-primary">Submit</button>
+</form>
+
     );
 
     const showError = () => (
